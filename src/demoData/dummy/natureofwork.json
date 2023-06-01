@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Software Development",
+        "responsibleperson": "John Smith",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "Network Configuration",
+        "responsibleperson": "Jane Doe",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Database Administration",
+        "responsibleperson": "Bob Johnson",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Web Design",
+        "responsibleperson": "Amy Lee",
+        "status": "active"
+    },
+    {
+        "id": 5,
+        "name": "IT Support",
+        "responsibleperson": "Chris Brown",
+        "status": "active"
+    },
+    {
+        "id": 6,
+        "name": "Project Management",
+        "responsibleperson": "Emily Davis",
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "name": "Technical Writing",
+        "responsibleperson": "David Kim",
+        "status": "active"
+    },
+    {
+        "id": 8,
+        "name": "System Integration",
+        "responsibleperson": "Karen Wilson",
+        "status": "active"
+    },
+    {
+        "id": 9,
+        "name": "Cybersecurity",
+        "responsibleperson": "Adam Green",
+        "status": "active"
+    },
+    {
+        "id": 10,
+        "name": "Cloud Computing",
+        "responsibleperson": "Sarah Taylor",
+        "status": "active"
+    }
+]

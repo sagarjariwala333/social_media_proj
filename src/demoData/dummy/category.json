@@ -1,0 +1,39 @@
+[
+    {
+        "id":1, 
+        "category":"Personal Protective Equipment", 
+        "details":"This category includes observing whether workers are using the required PPE correctly and consistently.",
+        "status":"active"
+    },
+    {
+        "id":2, 
+        "category":"Hazard Identification and Recognition", 
+        "details":"This category involves observing whether workers are identifying and reporting potential hazards in the workplace.",
+        "status":"active"
+    },
+    {
+        "id":3, 
+        "category":"Safe Work Practices", 
+        "details":"This category includes observing whether workers are following safe work practices and procedures.",
+        "status":"active"
+    },
+    {
+        "id":4, 
+        "category":"Emergency Preparedness", 
+        "details":"This category involves observing whether workers are prepared to respond to emergency situations and whether they are following emergency procedures.",
+        "status":"active"
+    },
+    {
+        "id":5, 
+        "category":"Equipment and Tool Safety", 
+        "details":"This category includes observing whether workers are using equipment and tools safely and whether they are maintaining them properly.",
+        "status":"active"
+    },
+    {
+        "id":6, 
+        "category":"Environmental Safety", 
+        "details":"This category involves observing whether workers are following environmental safety practices, such as properly disposing of hazardous materials and reducing waste.",
+        "status":"active"
+    }
+  
+  ]

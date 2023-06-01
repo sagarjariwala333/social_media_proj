@@ -1,0 +1,8 @@
+[
+    {"id":1, "subcategory":"Right for Job", "parent":"Personal Protective Equipment", "status":"active"},
+    {"id":2, "subcategory":"Clothing Right for Job", "parent":"Hazard Identification and Recognition", "status":"active"},
+    {"id":3, "subcategory":"Face Shield", "parent":"Safe Work Practices", "status":"active"},
+    {"id":4, "subcategory":"Full Body Chemical Suit", "parent":"Emergency Preparedness", "status":"active"},
+    {"id":5, "subcategory":"Gum Boot", "parent":"Equipment and Tool Safety", "status":"active"},
+    {"id":5, "subcategory":"Right for job", "parent":"Environmental Safety", "status":"active"}
+]

@@ -1,0 +1,1826 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.ant-menu-submenu-placement-rightTop ul li span {
+  padding-left: 0px !important;
+  margin-left: 10px !important;
+  border: 0px solid #000;
+}
+
+.ant-layout-sider {
+  z-index: 99 !important;
+  padding-right: 0px !important;
+}
+
+.ant-layout-sider ul.ant-menu.ant-menu-sub.ant-menu-inline {
+  left: 65px;
+  max-width: 216px;
+  border-right: 2px solid #e0e0e0;
+}
+
+.extramenu {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.extramenu ul {
+  margin-bottom: 0px;
+}
+.extramenu li {
+  padding-left: 15px;
+}
+.extramenu li a {
+  font-size: 16px;
+  color: #4d4e56;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #4d4e56;
+  font-size: 14px;
+  height: 40px;
+}
+.extramenu li a svg {
+  width: 16px;
+  margin-right: 18px;
+  color: #4d4e56;
+}
+.extramenu li a span {
+  padding-left: 21px;
+  height: 40px;
+  border-left: 2px solid #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.extramenu li a ul {
+  position: fixed;
+  background: #f4f4f4;
+  width: 100%;
+  top: -2px;
+  max-width: 0px;
+  overflow: hidden;
+  left: 56px;
+  transition: ease all 0.5s;
+}
+.extramenu li:hover, .extramenu li.active {
+  background: #f7f7f7;
+}
+.extramenu li:hover a, .extramenu li.active a {
+  color: #489343;
+}
+.extramenu li:hover a svg, .extramenu li.active a svg {
+  color: #489343;
+}
+
+.profilebox {
+  width: 0px;
+  overflow: hidden;
+  height: 400px;
+  background: #ffffff;
+  position: fixed;
+  border: 1px solid #e4e4e4;
+  left: 287px;
+  transition: ease all 0.5s;
+  bottom: 15px;
+  opacity: 0;
+}
+.profilebox h1, .profilebox p {
+  font-size: 0px;
+}
+.profilebox .extramenu li {
+  padding-left: 0px;
+}
+.profilebox .extramenu li a {
+  height: 30px;
+  font-size: 0px;
+  color: #4d4e56;
+}
+.profilebox .extramenu li a svg {
+  display: none;
+}
+.profilebox .extramenu li:hover, .profilebox .extramenu li.active {
+  background: #ffffff;
+}
+.profilebox .extramenu li:hover a, .profilebox .extramenu li.active a {
+  color: #489343;
+}
+.profilebox .userpic {
+  width: 100px;
+  height: 100px;
+  background: #f4f4f4;
+  border-radius: 100px;
+  display: flex;
+  opacity: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.profilebox .userpic h4 {
+  font-size: 16px;
+}
+.profilebox.open {
+  width: 200px;
+  height: 400px;
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  left: 287px;
+  padding-top: 20px;
+  bottom: 15px;
+  transition: ease all 0.5s;
+  opacity: 1;
+}
+.profilebox.open .userpic {
+  opacity: 1;
+}
+.profilebox.open h1 {
+  font-size: 17px;
+}
+.profilebox.open p {
+  font-size: 14px;
+}
+.profilebox.open .user-dropdwon__info {
+  display: flex;
+  flex-direction: column;
+}
+.profilebox.open .extramenu li a {
+  font-size: 14px;
+}
+.profilebox.open .extramenu li a svg {
+  display: block;
+}
+
+.ant-layout-header {
+  width: 280px !important;
+  transition: ease all 0.3s;
+}
+
+.ant-col.align-center-v.navbar-brand.ant-col-xs-12.ant-col-sm-6.ant-col-lg-4 {
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.ant-layout .atbd-main-layout {
+  margin-top: 0px !important;
+}
+
+.sidemenu {
+  position: relative;
+}
+.sidemenu ul li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 0px;
+  color: #4d4e56;
+}
+.sidemenu ul li a svg {
+  width: 18px;
+  font-size: 16px;
+  color: #4d4e56;
+  margin-right: 42px;
+  margin-left: 8px;
+}
+.sidemenu ul li:hover, .sidemenu ul li.active {
+  background: #f7f7f7;
+}
+.sidemenu ul li:hover a, .sidemenu ul li.active a {
+  color: #2caf92;
+}
+.sidemenu ul li:hover a svg, .sidemenu ul li.active a svg {
+  color: #2caf92;
+}
+.sidemenu:before {
+  content: "";
+  position: absolute;
+  left: 50px;
+  height: 80vh;
+  width: 2px;
+  background: #d3d3d3;
+}
+
+.submenubox {
+  position: fixed;
+  top: 0px;
+  left: 68px;
+  height: 90vh;
+  background: #f7f7f7;
+  width: 0px;
+  transition: ease all 0.3s;
+  overflow: hidden;
+  padding: 12px 0px;
+}
+.submenubox.openmenu {
+  left: 68px;
+  width: 210px;
+  transition: ease all 0.3s;
+  top: 0px;
+  background: #f7f7f7;
+  z-index: 999;
+}
+.submenubox.openmenu h3 {
+  font-size: 15px;
+  padding-left: 15px;
+  color: #2277b3;
+}
+.submenubox .extramenu {
+  position: relative;
+  top: 0px;
+}
+.submenubox .extramenu li a {
+  height: 30px;
+  font-weight: 400;
+}
+.submenubox .extramenu li:hover a, .submenubox .extramenu li.active a {
+  color: #489343;
+  height: 30px;
+  font-size: 15px;
+}
+.submenubox .extramenu li.menutitle {
+  color: #2caf92;
+  font-size: 14px;
+}
+
+.striking-logo {
+  margin-left: 7px;
+}
+.striking-logo img {
+  max-width: 30px !important;
+}
+
+.ant-layout-header h3 {
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  font-size: 24px;
+  color: #2caf92;
+}
+.ant-layout-header .navbar-brand button {
+  position: absolute;
+  right: -40px;
+  background: #ffffff;
+  padding-right: 0px;
+  width: 30px;
+  padding-left: 8px !important;
+  top: 10px;
+}
+
+.ant-layout-sider-collapsed .ant-layout-header {
+  width: 60px !important;
+  transition: ease all 0.3s;
+}
+.ant-layout-sider-collapsed .ant-layout-header h3 {
+  display: none;
+}
+.ant-layout-sider-collapsed .navbar-brand button {
+  padding-left: 0px !important;
+  position: ABSOLUTE;
+  left: 42px;
+  top: 11px;
+  background: #ffffff;
+  padding-right: 0px;
+  width: 35px !important;
+}
+.ant-layout-sider-collapsed .profilebox {
+  left: 65px;
+  z-index: 99999;
+}
+.ant-layout-sider-collapsed .profilebox.open {
+  left: 65px;
+}
+.ant-layout-sider-collapsed .sidemenu:before {
+  display: none;
+}
+.ant-layout-sider-collapsed .sidemenu li a {
+  font-size: 0px;
+}
+.ant-layout-sider-collapsed .sidemenu li a svg {
+  margin-right: 0px;
+  margin-left: 18px;
+}
+.ant-layout-sider-collapsed .extramenu li a span {
+  display: none;
+}
+.ant-layout-sider-collapsed .submenubox.openmenu {
+  height: 100vh !important;
+  left: 60px;
+  top: 0px;
+  background: #ededed;
+}
+
+.ant-menu-submenu .ant-menu-submenu-title {
+  padding-right: 0px !important;
+}
+
+.ant-layout-sider ul.ant-menu {
+  position: relative;
+  height: 80vh;
+}
+.ant-layout-sider ul.ant-menu::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f4f6f8;
+}
+.ant-layout-sider ul.ant-menu::-webkit-scrollbar-thumb {
+  background-color: #f4f6f8;
+}
+
+.searchBox {
+  position: relative;
+  max-width: 400px;
+}
+.searchBox .searchTextBox {
+  background: url(../img/searchicon.svg) no-repeat 10px 6px;
+  padding-left: 50px;
+}
+.searchBox .searchIcon {
+  width: 25px;
+  height: 25px;
+}
+.searchBox .iconSearch {
+  position: absolute;
+}
+
+.ant-switch-checked {
+  background: #2caf92 !important;
+}
+
+.schedulemainbox {
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: ease all 0.5s;
+  margin-top: 20px;
+}
+.schedulemainbox .schedulebox {
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedulemainbox .schedulebox .ant-btn-primary {
+  padding: 7px 7px;
+  height: 25px;
+  border-radius: 2px;
+}
+.schedulemainbox .schedulebox .schedulecnt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedulemainbox .schedulebox .schedulecnt .timeducation {
+  font-size: 13px;
+  font-weight: normal;
+  color: #939393;
+  font-weight: 500;
+}
+.schedulemainbox .schedulebox .schedulecnt .timeducation strong {
+  color: #939393;
+}
+.schedulemainbox .schedulebox .schedulecnt .iconBox {
+  border: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-right: 20px;
+}
+.schedulemainbox .schedulebox .schedulecnt .iconBox svg {
+  color: #2caf92;
+}
+.schedulemainbox .schedulebox .schedulecnt .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.schedulemainbox .schedulebox .schedulecnt .textContainer h5 {
+  margin: 0px;
+  padding: 0px;
+  color: #32323b;
+  font-size: 14px;
+  font-weight: 600;
+}
+.schedulemainbox .schedulebox .schedulecnt .textContainer span {
+  font-size: 13px;
+  color: #939393;
+}
+.schedulemainbox .schedulebox .righttextContainer {
+  display: flex;
+}
+.schedulemainbox .schedulebox .righttextContainer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+.schedulemainbox .schedulebox .righttextContainer ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+  font-weight: 500;
+  color: #8c8c8c;
+}
+.schedulemainbox .schedulebox .righttextContainer ul li span {
+  font-weight: 400;
+}
+.schedulemainbox:hover .schedulebox {
+  border-color: #489343;
+  transition: ease all 0.5s;
+}
+.schedulemainbox:hover .iconBox {
+  border: 1px solid #489343;
+}
+
+.scheduleModal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  right: -120%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 999;
+  transition: ease all 0.3s;
+}
+.scheduleModal .scheduleModalBox {
+  width: 60%;
+  height: 100vh;
+  background: #ffffff;
+  right: 0px;
+  top: 0px;
+  padding: 25px 30px;
+}
+.scheduleModal .scheduleModalBox .ant-page-header {
+  margin-bottom: 20px;
+  background: #ffffff !important;
+  padding: 0px !important;
+}
+.scheduleModal .scheduleModalBox .graybox {
+  background: #f4f5f7;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.scheduleModal .scheduleModalBox .graybox .ant-form-item-label > label {
+  margin-bottom: 0px !important;
+  height: auto !important;
+}
+.scheduleModal .scheduleModalBox .modalTitle {
+  max-height: 85vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.scheduleModal .scheduleModalBox .modalTitle::-webkit-scrollbar {
+  width: 3px;
+  background: #f4f4f4;
+}
+.scheduleModal .scheduleModalBox .modalTitle::-webkit-scrollbar-thumb {
+  background-color: #bebebe;
+}
+.scheduleModal .scheduleModalBox .modalTitle .observationsbox {
+  margin-bottom: 25px;
+}
+.scheduleModal .scheduleModalBox .modalTitle .observationsbox .cardboxtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.scheduleModal .scheduleModalBox .modalTitle .observationsbox .cardboxtitle .ant-btn-primary {
+  padding: 7px 7px;
+  margin-right: 15px;
+  height: 25px;
+  border-radius: 2px;
+}
+.scheduleModal .scheduleModalBox .modalTitle .ant-select.ant-select-lg .ant-select-selector {
+  height: 35px !important;
+}
+.scheduleModal .scheduleModalBox .modalTitle .ant-select.ant-select-lg .ant-select-selector input {
+  height: 35px;
+}
+.scheduleModal .scheduleModalBox .modalTitle .ant-select.ant-select-lg .ant-select-selector .ant-select-selection-placeholder {
+  font-size: 14px;
+}
+.scheduleModal .scheduleModalBox .modalTitle .ant-select-arrow {
+  top: 40% !important;
+}
+.scheduleModal .scheduleModalBox .modalTitle .ant-form-item-control-input #horizontal-form_name .ant-picker {
+  padding: 6px 12px !important;
+}
+.scheduleModal .scheduleModalBox .modalTitle .ant-form-item-control-input .ant-picker {
+  padding: 6px 12px !important;
+}
+.scheduleModal .scheduleModalBox .btnclose {
+  color: #bbbbbb;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.scheduleModal .scheduleModalBox h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.scheduleModal .scheduleModalBox label {
+  font-size: 13px;
+  color: #878787;
+}
+.scheduleModal .scheduleModalBox .ant-input {
+  height: 35px;
+  border-radius: 0px;
+  border: 0px;
+}
+.scheduleModal .scheduleModalBox .ant-form-item-label {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.scheduleModal .scheduleModalBox .ant-form-item {
+  margin-bottom: 10px;
+}
+.scheduleModal.open {
+  transition: ease all 0.3;
+  right: 0;
+}
+.scheduleModal .formDivider {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+}
+
+.scheduleModalbackdrop {
+  position: fixed;
+  width: 0;
+  height: 100vh;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: ease all 0.1s;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  font-size: 0px;
+}
+.scheduleModalbackdrop.open {
+  opacity: 1;
+  transition: ease all 0.1s;
+  z-index: 99;
+  left: 0;
+  width: 100vw;
+}
+
+.modalButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.common .ant-row {
+  margin-bottom: 15px !important;
+}
+.common.addempform .ant-row {
+  margin-bottom: 15px !important;
+}
+.common.addempform .ant-row .ant-row {
+  margin-bottom: 0px !important;
+}
+.common.loginform .ant-form-item {
+  margin-bottom: 0px !important;
+}
+.common .checkdivbox .ant-form-item-control-input-content {
+  margin-top: 35px;
+}
+.common .ant-picker {
+  width: 100% !important;
+  height: 40px;
+}
+.common .ant-select-selector {
+  height: 40px;
+}
+.common .ant-input {
+  height: 40px !important;
+}
+.common .add-user-bottom button {
+  margin-left: 10px;
+}
+.common .ant-form-horizontal .ant-form-item .ant-select-single .ant-select-selector,
+.common .ant-form-horizontal .ant-form-item-row .ant-select-single .ant-select-selector,
+.common .ant-form-horizontal .ant-select-show-search.ant-select:not(.ant-select-customize-input) .ant-select-selector input {
+  height: 40px !important;
+  line-height: 35px !important;
+}
+.common .ant-form-horizontal .ant-form-item .ant-select-single .ant-select-selector .ant-select-selection-placeholder,
+.common .ant-form-horizontal .ant-form-item-row .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 40px !important;
+}
+
+.buttonareabox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.buttonareabox button {
+  margin: 0px 0px 0px 10px;
+}
+
+.project-modal .ant-form-item {
+  margin-bottom: 10px !important;
+}
+.project-modal .ant-form-item-control-input input {
+  height: 35px;
+}
+.project-modal .ant-form-item .ant-select-single .ant-select-selector, .project-modal .ant-form-item-row .ant-select-single .ant-select-selector {
+  max-height: 36px !important;
+}
+.project-modal .ant-form-horizontal .ant-form-item .ant-select-single .ant-select-selector .ant-select-selection-placeholder, .project-modal .ant-form-horizontal .ant-form-item-row .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 36px !important;
+}
+.project-modal .ant-form-item .ant-select-single .ant-select-selector, .project-modal .ant-form-item-row .ant-select-single .ant-select-selector {
+  padding: 0px 10px !important;
+}
+.project-modal .ant-select-selection-placeholder {
+  line-height: 36px !important;
+}
+.project-modal textarea {
+  resize: none;
+}
+
+.ant-modal .ant-modal-content {
+  border-radius: 0px !important;
+}
+.ant-modal .ant-modal-header {
+  border-radius: 0px;
+  background: #e4e4e8;
+}
+.ant-modal .ant-form-item-explain-error {
+  font-size: 11px;
+}
+.ant-modal .ant-form-item-control-input {
+  margin-top: 0px !important;
+}
+.ant-modal .ant-row {
+  margin-bottom: 10px;
+}
+.ant-modal .ant-select {
+  width: 100% !important;
+}
+.ant-modal .checkboxbox button {
+  height: 20px !important;
+  margin-left: 10px !important;
+}
+
+.scheduleheader .ant-btn-primary {
+  height: 38px;
+  padding: 5px 15px;
+}
+.scheduleheader .ant-btn-primary.btnfilter {
+  padding: 0px 10px !important;
+  height: 38px;
+}
+.scheduleheader .ant-btn-primary.btnfilter svg {
+  width: auto;
+  height: auto;
+}
+.scheduleheader .smallDropdown {
+  position: absolute;
+  left: 32px;
+  top: 19px;
+}
+.scheduleheader .ant-page-header-heading-left {
+  padding-left: 0px;
+}
+.scheduleheader .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  height: 30px !important;
+}
+.scheduleheader.padlefzero .ant-page-header-heading-left {
+  padding-left: 0px !important;
+}
+.scheduleheader .ant-select-single .ant-select-selector .ant-select-selection-item, .scheduleheader .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 27px !important;
+}
+.scheduleheader .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #ffffff !important;
+}
+.scheduleheader .search-box input {
+  border-radius: 4px !important;
+  height: 38px !important;
+  border: 1px solid #d9d9d9 !important;
+}
+
+.searcharea-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.searcharea-right .search-box input {
+  border-radius: 4px !important;
+  height: 38px !important;
+  border: 1px solid #d9d9d9 !important;
+}
+.searcharea-right .search-box {
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.searcharea-right .btnfilter {
+  padding: 0px 10px;
+  height: 38px;
+}
+.searcharea-right .btnfilter svg {
+  width: auto;
+  height: auto;
+}
+
+.advanceSearch {
+  padding: 8px 15px !important;
+}
+
+.slick-slide .logintext {
+  padding: 40px 50px;
+  position: absolute;
+  top: 80%;
+  opacity: 0;
+  transition: ease all 2s;
+  animation-delay: 2s;
+}
+.slick-slide .logintext p {
+  position: absolute;
+}
+.slick-slide.slick-current.slick-active .logintext {
+  padding: 40px 50px;
+  position: absolute;
+  top: 30%;
+  opacity: 1;
+  transition: ease all 2s;
+  animation-delay: 2s;
+}
+
+.loginpage h1 {
+  color: #000000;
+  display: flex;
+  background: #ffffff;
+  width: 200px;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 15px;
+  position: absolute;
+  top: 0px;
+  z-index: 9;
+  left: 45px;
+}
+.loginpage h1 img {
+  width: 100px;
+}
+.loginpage .auth-side-content > div {
+  padding: 0px !important;
+}
+.loginpage .logintext h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.loginpage .logintext p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.loginBox {
+  background: #ffffff;
+  display: FLEX;
+  flex-direction: COLUMN;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 100px !important;
+}
+.loginBox .ant-form-item-control-input-content input {
+  border-radius: 0px;
+  background: #ffffff;
+}
+.loginBox h1 {
+  color: #000000;
+}
+.loginBox h1 span {
+  color: #000000;
+}
+.loginBox label {
+  font-weight: 600;
+}
+.loginBox p {
+  position: ABSOLUTE;
+  top: 25px;
+  right: 25px;
+}
+.loginBox a {
+  color: #489343;
+}
+.loginBox .social-login {
+  margin-top: 50px !important;
+}
+.loginBox .social-login li a {
+  background: #ffffff !important;
+}
+.loginBox .ant-btn-primary {
+  width: 100% !important;
+}
+
+.logobox {
+  max-width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -40px;
+}
+.logobox h5 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 5px;
+  color: #000000;
+}
+.logobox img {
+  max-width: 100px;
+}
+
+.registerform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.registerform .ant-form-item {
+  margin-bottom: 15px;
+}
+.registerform .btn-create {
+  width: 100%;
+  background: #2caf92;
+}
+.registerform .btn-create:hover {
+  background: #188b72;
+}
+
+.auth-notice a {
+  color: #2caf92;
+}
+
+.leftimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+.leftimg img {
+  max-width: 80%;
+}
+.leftimg.otppage img {
+  max-width: 70%;
+}
+
+.thankyoupage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60vh !important;
+}
+.thankyoupage .imgbox {
+  display: FLEX;
+  flex-direction: row;
+  justify-content: center;
+}
+.thankyoupage .imgbox img {
+  max-width: 50%;
+  margin-bottom: 40px;
+}
+
+.packagebox {
+  width: 80%;
+  border: 0px solid #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.packagebox .package {
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0px 15px;
+  min-height: 250px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.packagebox .package ul li {
+  border-bottom: 1px solid #dadada;
+  padding: 10px 0px;
+}
+.packagebox .package ul li.pricebox {
+  font-size: 30px;
+  font-weight: bold;
+}
+.packagebox .package ul li.pricebox span {
+  font-weight: normal;
+  font-size: 16px;
+}
+.packagebox .package .btntrynow {
+  border: 1px solid #b8b8b8;
+  width: 100%;
+  padding: 10px 15px;
+  display: block;
+  transition: ease all 0.5s;
+  text-align: center;
+  border-radius: 5px;
+  color: #2caf92;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.packagebox .package .btntrynow:hover {
+  background: #188b72;
+  color: #ffffff;
+  transition: ease all 0.5s;
+}
+
+.martopzero {
+  margin-top: 0px;
+}
+
+.tabmainBox {
+  position: fixed;
+  top: 0px;
+  z-index: 9;
+  margin: 0px -25px;
+  background: #ffffff;
+  padding: 10px 20px;
+  width: 78.2%;
+  width: calc(100% - 320px);
+}
+.tabmainBox ul li a {
+  padding: 5px 0px !important;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+  padding: 10px 10px !important;
+}
+
+.fANvPz {
+  padding: 0px 9px 20px 30px !important;
+  min-height: 660px !important;
+}
+
+.ant-card-body .fANvPz {
+  padding: 0px 20px 20px 20px !important;
+  max-height: auto;
+}
+
+.treeview li {
+  background: #e9eef6;
+}
+.treeview li .arrowicon {
+  padding: 5px 15px;
+}
+.treeview li .flexmianrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.treeview li .flexmianrow .flexrowbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  padding: 7px 15px;
+}
+.treeview li .flexmianrow .flexrowbox .firstcol span.fa {
+  margin-right: 10px;
+}
+.treeview .secondcol button {
+  border: 0px;
+}
+.treeview ul {
+  margin-left: 20px;
+}
+
+.ant-checkbox-inner {
+  border: 2px solid #9d9d9d !important;
+}
+
+.stickyBox {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  min-height: 70px;
+  background: #2caf92;
+  z-index: 1;
+  padding: 10px 40px 10px 60px;
+  width: calc(100% - 280px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.stickyBox .selectedcount {
+  color: #ffffff;
+  font-weight: bold;
+}
+.stickyBox .buttonBoxArea .btn-add {
+  background: #ffffff;
+  padding: 5px 10px;
+  color: #000000;
+  height: 35px;
+  margin: 0px 5px;
+}
+.stickyBox .buttonBoxArea .btn-add a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-pagination-item-active a {
+  background: #2caf92 !important;
+}
+
+.configpage .ant-form .ant-row {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 5px 0px;
+}
+.configpage .ant-form .ant-row .ant-row {
+  border: 0px;
+}
+.configpage .ant-form .ant-row .ant-row.ant-form-item-row {
+  padding: 0px !important;
+}
+.configpage .ant-form .ant-row .ant-col {
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.configpage .ant-form .ant-row .ant-col h4 {
+  display: FLEX;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.configpage .ant-form .ant-row .ant-col h4 span {
+  margin-right: 10px;
+}
+.configpage .ant-form .ant-row .ant-col.flexend {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.configpage .ant-form .ant-form-item {
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+.configpage .ant-form .ant-form-item-control-input {
+  margin-top: 0px !important;
+}
+.configpage .ant-form .ant-form-item-control-input {
+  width: 100%;
+}
+
+.dashboard .schedulemainbox .schedulebox .ant-btn-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard .schedulemainbox .schedulebox .ant-btn-primary a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard .schedulemainbox .textContainer .ant-btn {
+  padding: 0px 5px;
+  height: 23px;
+  background: #c7f5ea;
+  border-color: #c7f5ea;
+}
+.dashboard .schedulemainbox .textContainer .ant-btn span {
+  color: #024234;
+  font-size: 12px;
+}
+.dashboard .schedulemainbox .textContainer .pending, .dashboard .schedulemainbox .textContainer .complete, .dashboard .schedulemainbox .textContainer .progress {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+.dashboard h1 {
+  color: #489343 !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.ant-tooltip-arrow-content::after {
+  display: none !important;
+}
+
+.ant-tooltip-arrow-content::before {
+  background: #000000 !important;
+  top: -15px;
+}
+
+.ant-tooltip .ant-tooltip-inner {
+  background: #000000;
+  border: 1px solid #000000;
+}
+
+.ant-tooltip-inner {
+  color: #ffffff !important;
+}
+
+.commonflex, .notification ul.notification-list li a div.notifications div.notification-content .notification-text, .notification ul.notification-list li a div.notifications div.notification-content, .notification ul.notification-list li a div.notifications, .notification ul.notification-list li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.notification {
+  height: 75vh;
+}
+.notification .headerNotification {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.notification .headerNotification svg {
+  color: #20c997;
+}
+.notification .headerNotification .ant-badge {
+  margin-right: 10px;
+}
+.notification .headerNotification h1 {
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+}
+.notification .headerNotification h1 span.title-text {
+  margin-right: 10px;
+}
+.notification ul.notification-list {
+  padding: 0px 5px;
+}
+.notification ul.notification-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.notification ul.notification-list li a h1 {
+  margin: 0px 0px 0px 10px;
+  padding: 0px;
+  font-size: 14px;
+}
+.notification ul.notification-list li a p {
+  margin-bottom: 0px;
+  color: #333333;
+  margin-right: 10px;
+  font-size: 13px;
+}
+.notification ul.notification-list li a svg {
+  color: #20c997;
+  width: 20px;
+}
+.notification ul.notification-list li:hover {
+  background: #f0f0f0;
+}
+.notification .btn-seeAll {
+  display: inline-block;
+  background: #20c997;
+  border: 1px solid #20c997;
+  color: #ffffff;
+  float: right;
+  transition: ease all 0.5s;
+  padding: 5px 15px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.notification .btn-seeAll:hover {
+  background: #188b72;
+  transition: ease all 0.5s;
+}
+
+.headerwithdropdown .ant-page-header-heading-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.headerwithdropdown .ant-select {
+  width: 120px;
+  margin-right: 10px;
+}
+.headerwithdropdown .ant-select .ant-select-selector {
+  height: 30px !important;
+}
+.headerwithdropdown .ant-select .ant-select-selector .ant-select-selection-item {
+  line-height: 27px !important;
+  font-size: 13px !important;
+}
+.headerwithdropdown .ant-select .ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+  height: 30px !important;
+}
+.headerwithdropdown .table-actions .ant-btn {
+  height: 42px !important;
+}
+
+.table-responsive .ant-table-content .ant-table-cell {
+  white-space: normal !important;
+}
+
+.rolepermission .RoleLeft {
+  background: #f4f6f8;
+  border: 1px solid #eaeaea;
+}
+.rolepermission .RoleLeft .RoleSearch {
+  padding: 10px 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+.rolepermission .RoleLeft .roleListBox {
+  padding: 15px;
+}
+.rolepermission .RoleLeft .roleListBox ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+.rolepermission .RoleLeft .roleListBox ul li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0px solid #e2e2e2;
+  padding: 8px 10px;
+  width: 100%;
+  color: #000000;
+}
+.rolepermission .RoleLeft .roleListBox ul li a .rolename {
+  color: #000000;
+}
+.rolepermission .RoleLeft .roleListBox ul li a .assignuser {
+  display: flex;
+  flex-direction: column;
+}
+.rolepermission .RoleLeft .roleListBox ul li a .assignuser .usernamebox {
+  font-size: 12px;
+}
+.rolepermission .RoleLeft .roleListBox ul li a:hover, .rolepermission .RoleLeft .roleListBox ul li a.active {
+  background: #ffffff;
+  color: #489343;
+}
+.rolepermission .RoleLeft .roleListBox ul li a:hover .rolename, .rolepermission .RoleLeft .roleListBox ul li a.active .rolename {
+  color: #489343;
+}
+
+.matrixtable .table {
+  width: auto !important;
+}
+.matrixtable table th {
+  height: 180px;
+}
+.matrixtable table th, .matrixtable table td {
+  font-weight: normal;
+}
+.matrixtable table span {
+  font-size: 11px;
+  display: block;
+  font-weight: normal;
+}
+.matrixtable .titlebox {
+  transform: rotate(180deg);
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  width: auto;
+  white-space: nowrap;
+  text-align: right;
+  writing-mode: tb-rl;
+}
+.matrixtable .wd45 {
+  width: 45px;
+  text-align: center;
+}
+.matrixtable .wd150 {
+  width: 200px;
+}
+.matrixtable .table-bordered > tbody > tr > td, .matrixtable .table-bordered > tbody > tr > th, .matrixtable .table-bordered > tfoot > tr > td, .matrixtable .table-bordered > tfoot > tr > th, .matrixtable .table-bordered > thead > tr > td, .matrixtable .table-bordered > thead > tr > th {
+  border: 1px solid #ddd;
+}
+.matrixtable .table > tbody > tr > td, .matrixtable .table > tbody > tr > th, .matrixtable .table > tfoot > tr > td, .matrixtable .table > tfoot > tr > th, .matrixtable .table > thead > tr > td, .matrixtable .table > thead > tr > th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.dashboardcountBox, .notificationallowbox {
+  padding: 15px;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+.dashboardcountBox.bluebox, .bluebox.notificationallowbox {
+  background: #dafcff;
+}
+.dashboardcountBox.bluebox .count, .bluebox.notificationallowbox .count {
+  color: #065f67;
+}
+.dashboardcountBox.greenbox, .greenbox.notificationallowbox {
+  background: #e8fff9;
+}
+.dashboardcountBox.greenbox .count, .greenbox.notificationallowbox .count {
+  color: #00966f;
+}
+.dashboardcountBox.orangebox, .orangebox.notificationallowbox {
+  background: #fff2e8;
+}
+.dashboardcountBox.orangebox .count, .orangebox.notificationallowbox .count {
+  color: #934306;
+}
+.dashboardcountBox .count, .notificationallowbox .count {
+  font-size: 30px;
+  color: #2caf92;
+  line-height: 40px;
+}
+.dashboardcountBox h3, .notificationallowbox h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.notificationsetting {
+  border: 1px solid #dff5f0;
+  padding-bottom: 30px;
+}
+.notificationsetting .greenback {
+  background: #dff5f0;
+  padding: 30px;
+}
+.notificationsetting .ant-checkbox-checked .ant-checkbox-inner {
+  border-color: #2caf92 !important;
+}
+
+.ant-form-item-control-input-content .add-user-bottom {
+  margin-top: 0px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 0px;
+}
+.ant-form-item-control-input-content .add-user-bottom.createschedule {
+  margin-right: 0px !important;
+}
+
+.notificationallowbox {
+  padding: 0px 30px 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  box-shadow: none;
+  border: 0px;
+  border-bottom: 1px solid #e1e1e1;
+  border-radius: 0px;
+}
+.notificationallowbox h1 {
+  font-size: 14px !important;
+}
+.notificationallowbox h1.mainheading {
+  font-size: 22px !important;
+}
+.notificationallowbox .subbox {
+  border: 0px solid #f4f4f4;
+  padding: 10px 0px;
+  margin-bottom: 5px;
+}
+.notificationallowbox .subbox h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 500;
+}
+.notificationallowbox .subbox h1 .tolltipbox {
+  margin-left: 5px;
+  width: 17px;
+  color: #8f8f8f;
+}
+
+.mainCard {
+  padding-right: 10px !important;
+}
+.mainCard .ant-card-body {
+  padding: 10px 15px !important;
+}
+.mainCard .bodycontainer {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.mainCard .bodycontainer .ant-page-header {
+  padding: 10px 15px !important;
+}
+.mainCard .bodycontainer .mainContainer {
+  padding: 0px 15px 2px !important;
+  min-height: auto;
+}
+
+.empnamepic {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.empnamepic .empname {
+  margin-left: 6px;
+}
+.empnamepic .empname span:nth-child(2) {
+  font-size: 11px;
+}
+
+table tr td {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1550px) {
+  .ant-layout-content .taskmanagement .ant-col .project-sort-group .sort-group .ant-select {
+    min-width: 180px !important;
+    margin-left: 5px !important;
+  }
+  .ant-layout-content .taskmanagement .ant-col .sort-group .layout-style {
+    margin-left: 5px !important;
+  }
+  .ant-layout-content .taskmanagement .ant-col .project-sort-bar {
+    border: 0px solid #000000;
+  }
+  .ant-layout-content .taskmanagement .ant-col .project-sort-bar .project-sort-search.autocomp .ant-select-auto-complete {
+    width: 200px !important;
+  }
+}
+.ant-layout-content .taskmanagement .project-sort-nav ul li {
+  position: relative;
+}
+.ant-layout-content .taskmanagement .project-sort-nav ul li .ant-badge {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+}
+.ant-layout-content .taskmanagement .project-sort-nav ul li .ant-badge .ant-badge-count {
+  font-size: 10px;
+  padding: 0 3px;
+  text-align: center;
+  min-width: 18px;
+  height: 18px;
+}
+
+.mainFilterBox ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.mainFilterBox ul li {
+  margin: 0px 15px 0px 0px;
+}
+
+.ant-tag.pending, .dashboard .schedulemainbox .textContainer .ant-tag.progress, .dashboard .schedulemainbox .textContainer .ant-tag.complete {
+  background: #dfb83f !important;
+  color: #ffffff !important;
+  border-color: #dfb83f !important;
+}
+.ant-tag.onhold {
+  background: #ff9b51 !important;
+  color: #ffffff !important;
+  border-color: #ff9b51 !important;
+}
+.ant-tag.progress {
+  background: #ff4d4f !important;
+  color: #ffffff !important;
+  border-color: #ff4d4f !important;
+}
+.ant-tag.complete {
+  background: #20c997 !important;
+  color: #ffffff !important;
+  border-color: #ff4d4f !important;
+}
+
+.counterStatusBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.counterStatusBox .bbox {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0px 20px 0px 0px;
+}
+.counterStatusBox .bbox .countBox {
+  font-size: 30px;
+}
+.counterStatusBox .bbox h3 {
+  margin-left: 15px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.counterStatusBox .bbox.pendingboxcount {
+  background: #f3e5ba !important;
+  color: #ffffff !important;
+  border-color: #f3e5ba !important;
+}
+.counterStatusBox .bbox.pendingboxcount .countBox {
+  color: #6b5100;
+}
+.counterStatusBox .bbox.inprogssboxcount {
+  background: #ffbcbd !important;
+  color: #ffffff !important;
+  border-color: #ff4d4f !important;
+}
+.counterStatusBox .bbox.inprogssboxcount .countBox {
+  color: #6a0002;
+}
+.counterStatusBox .bbox.reviewboxcount {
+  background: #ffd2b1 !important;
+  color: #ffffff !important;
+  border-color: #ff9b51 !important;
+}
+.counterStatusBox .bbox.reviewboxcount .countBox {
+  color: #8f3c00;
+}
+.counterStatusBox .bbox.completedboxcount {
+  background: #acead8 !important;
+  color: #ffffff !important;
+  border-color: #20c997 !important;
+}
+.counterStatusBox .bbox.completedboxcount .countBox {
+  color: #006044;
+}
+.counterStatusBox .bbox.holdboxcount {
+  background: #caecff !important;
+  color: #ffffff !important;
+  border-color: #20c997 !important;
+}
+.counterStatusBox .bbox.holdboxcount .countBox {
+  color: #194f6e;
+}
+
+.pending .ant-badge-count, .dashboard .schedulemainbox .textContainer .progress .ant-badge-count, .dashboard .schedulemainbox .textContainer .complete .ant-badge-count {
+  background: #dfb83f !important;
+  color: #ffffff !important;
+  border-color: #dfb83f !important;
+}
+
+.onhold .ant-badge-count {
+  background: #ff9b51 !important;
+  color: #ffffff !important;
+  border-color: #ff9b51 !important;
+}
+
+.progress .ant-badge-count {
+  background: #20c997 !important;
+  color: #ffffff !important;
+  border-color: #20c997 !important;
+}
+
+.complete .ant-badge-count {
+  background: #dfb83f !important;
+  color: #ffffff !important;
+  border-color: #dfb83f !important;
+}
+
+.ant-dropdown {
+  padding: 5px 0px !important;
+}
+
+.project-modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.createtaskform .ant-modal-body .project-modal {
+  max-height: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.createtaskform .ant-modal-body .project-modal .ant-form-horizontal .ant-select-selector .ant-select-selection-item {
+  line-height: 30px !important;
+}
+
+.mt-3 {
+  margin-top: 15px !important;
+}
+
+.mb-3 {
+  margin-bottom: 20px !important;
+}
+
+.custompageheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #e9e9e9;
+}
+.custompageheader .ant-form-item {
+  margin-bottom: 0px !important;
+}
+.custompageheader h4.ant-typography {
+  margin-bottom: 0px !important;
+  font-size: 16px !important;
+}
+
+.padzero {
+  padding: 0px !important;
+}
+
+.tempeltepage .ant-form-horizontal .ant-card-body .ant-card-body {
+  padding: 0px !important;
+}
+.tempeltepage .EditpageBox .ant-card-body {
+  border: 1px solid #e9e9e9;
+  padding: 10px !important;
+}
+.tempeltepage .EditpageBox .ant-card-body .ant-card-body {
+  border: 0px;
+  padding: 0px;
+}
+.tempeltepage button {
+  padding: 2px 5px;
+  height: auto;
+  font-size: 12px;
+}
+.tempeltepage .sectionbuttons {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.tempeltepage .sectionbuttons.addsectionbtn {
+  position: relative;
+}
+.tempeltepage .sectionbuttons.addsectionbtn button {
+  position: absolute;
+  bottom: 15px;
+  right: 100px;
+}
+.tempeltepage .addpagebuttonsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.tempeltepage .addpagebuttonsection button {
+  margin-left: 10px;
+}
+.tempeltepage .newpageBox {
+  border: 1px solid #e9e9e9;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tempeltepage .newpageBox h2 {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.tempeltepage .fliedsbox {
+  margin-left: 15px;
+}
+.tempeltepage .fliedsbox ul {
+  margin: 0px;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #e9e9e9;
+  border-top: 0px;
+}
+.tempeltepage .fliedsbox ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 5px;
+}
+.tempeltepage .fliedsbox ul li .ant-form-item {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+}
+.tempeltepage .fliedsbox ul li .ant-form-item input[type=text], .tempeltepage .fliedsbox ul li .ant-form-item input[type=number] {
+  height: 32px;
+}
+.tempeltepage .fliedsbox ul li .ant-form-item .ant-select-selector {
+  height: 32px !important;
+}
+.tempeltepage .fliedsbox ul li .ant-form-item-control-input {
+  min-height: 25px;
+}
+.tempeltepage .fliedsbox ul li button {
+  padding: 0px;
+}
+.tempeltepage .pageinnerbox {
+  padding: 0px 0px 0px 15px;
+}
+.tempeltepage .pageinnerbox .padzero {
+  margin-bottom: 15px;
+}
+
+.templetePreview {
+  padding: 10px !important;
+}
+.templetePreview h2 {
+  margin-bottom: 15px !important;
+  font-size: 16px !important;
+}
+.templetePreview .ant-card-body {
+  padding: 20px !important;
+}
+.templetePreview .ant-card-body .ant-card-body {
+  padding: 0px !important;
+}
+.templetePreview .jsondatabox {
+  word-break: break-all;
+}
+.templetePreview .ant-btn {
+  box-shadow: none !important;
+  border: 1px solid #e9e9e9;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.templetePreview .ant-collapse-content > .ant-collapse-content-box {
+  padding: 10px !important;
+}
+.templetePreview .buttonbox {
+  margin-top: 8px;
+}
+.templetePreview .ant-form-item {
+  margin-bottom: 8px;
+}
+.templetePreview .ant-collapse-content-box h5 {
+  font-weight: normal !important;
+  font-size: 14px;
+  border: 1px solid #e9e9e9;
+  padding: 8px;
+  border-radius: 5px;
+}/*# sourceMappingURL=custom.css.map */

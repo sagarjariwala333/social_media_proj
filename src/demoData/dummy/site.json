@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Headquarters",
+        "country": "United States",
+        "state": "California",
+        "city": "Los Angeles",
+        "postcode": "90001",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "Branch Office",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York City",
+        "postcode": "10001",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Regional Office",
+        "country": "Canada",
+        "state": "Ontario",
+        "city": "Toronto",
+        "postcode": "M5V 3L9",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Warehouse",
+        "country": "Mexico",
+        "state": "Jalisco",
+        "city": "Guadalajara",
+        "postcode": "45645",
+        "status": "inactive"
+    },
+    {
+        "id": 5,
+        "name": "Data Center",
+        "country": "Germany",
+        "state": "Hesse",
+        "city": "Frankfurt",
+        "postcode": "60311",
+        "status": "active"
+    },
+    {
+        "id": 6,
+        "name": "Manufacturing Plant",
+        "country": "China",
+        "state": "Guangdong",
+        "city": "Shenzhen",
+        "postcode": "518109",
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "name": "Research Center",
+        "country": "Japan",
+        "state": "Tokyo",
+        "city": "Chiyoda",
+        "postcode": "100-0006",
+        "status": "active"
+    },
+    {
+        "id": 8,
+        "name": "Distribution Center",
+        "country": "Australia",
+        "state": "New South Wales",
+        "city": "Sydney",
+        "postcode": "2000",
+        "status": "active"
+    },
+    {
+        "id": 9,
+        "name": "Sales Office",
+        "country": "Brazil",
+        "state": "São Paulo",
+        "city": "São Paulo",
+        "postcode": "01227-200",
+        "status": "inactive"
+    },
+    {
+        "id": 10,
+        "name": "Training Center",
+        "country": "India",
+        "state": "Maharashtra",
+        "city": "Mumbai",
+        "postcode": "400001",
+        "status": "active"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Manager",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "Assistant Manager",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Software Engineer",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Graphic Designer",
+        "status": "active"
+    },
+    {
+        "id": 5,
+        "name": "Accountant",
+        "status": "active"
+    },
+    {
+        "id": 6,
+        "name": "Marketing Specialist",
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "name": "Human Resources Coordinator",
+        "status": "active"
+    },
+    {
+        "id": 8,
+        "name": "Quality Assurance Tester",
+        "status": "active"
+    },
+    {
+        "id": 9,
+        "name": "Operations Manager",
+        "status": "active"
+    },
+    {
+        "id": 10,
+        "name": "Sales Representative",
+        "status": "active"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+      "teamid": "001",
+      "amount": 1000,
+      "type": "payment",
+      "date": "2023-05-01",
+      "status": "active"
+    },
+    {
+      "teamid": "002",
+      "amount": 500,
+      "type": "payment",
+      "date": "2023-04-25",
+      "status": "active"
+    },
+    {
+      "teamid": "003",
+      "amount": 750,
+      "type": "refund",
+      "date": "2023-05-10",
+      "status": "active"
+    },
+    {
+      "teamid": "004",
+      "amount": 1200,
+      "type": "payment",
+      "date": "2023-05-15",
+      "status": "inactive"
+    },
+    {
+      "teamid": "005",
+      "amount": 900,
+      "type": "payment",
+      "date": "2023-04-28",
+      "status": "active"
+    },
+    {
+      "teamid": "006",
+      "amount": 1500,
+      "type": "payment",
+      "date": "2023-05-05",
+      "status": "active"
+    },
+    {
+      "teamid": "007",
+      "amount": 2000,
+      "type": "payment",
+      "date": "2023-05-20",
+      "status": "inactive"
+    },
+    {
+      "teamid": "008",
+      "amount": 800,
+      "type": "refund",
+      "date": "2023-05-12",
+      "status": "active"
+    },
+    {
+      "teamid": "009",
+      "amount": 600,
+      "type": "payment",
+      "date": "2023-04-30",
+      "status": "active"
+    },
+    {
+      "teamid": "010",
+      "amount": 1100,
+      "type": "payment",
+      "date": "2023-05-08",
+      "status": "inactive"
+    }
+  ]
+  

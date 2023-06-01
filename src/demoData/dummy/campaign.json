@@ -1,0 +1,63 @@
+[
+    {
+      "campaignid": "001",
+      "url": "https://example.com/campaign1",
+      "netcredits": 500,
+      "status": "active"
+    },
+    {
+      "campaignid": "002",
+      "url": "https://example.com/campaign2",
+      "netcredits": 750,
+      "status": "inactive"
+    },
+    {
+      "campaignid": "003",
+      "url": "https://example.com/campaign3",
+      "netcredits": 1000,
+      "status": "active"
+    },
+    {
+      "campaignid": "004",
+      "url": "https://example.com/campaign4",
+      "netcredits": 350,
+      "status": "active"
+    },
+    {
+      "campaignid": "005",
+      "url": "https://example.com/campaign5",
+      "netcredits": 600,
+      "status": "inactive"
+    },
+    {
+      "campaignid": "006",
+      "url": "https://example.com/campaign6",
+      "netcredits": 800,
+      "status": "active"
+    },
+    {
+      "campaignid": "007",
+      "url": "https://example.com/campaign7",
+      "netcredits": 450,
+      "status": "active"
+    },
+    {
+      "campaignid": "008",
+      "url": "https://example.com/campaign8",
+      "netcredits": 900,
+      "status": "inactive"
+    },
+    {
+      "campaignid": "009",
+      "url": "https://example.com/campaign9",
+      "netcredits": 1200,
+      "status": "active"
+    },
+    {
+      "campaignid": "010",
+      "url": "https://example.com/campaign10",
+      "netcredits": 250,
+      "status": "inactive"
+    }
+  ]
+  

@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "agency": "ABC Construction",
+      "email": "john.doe@abcconstruction.com",
+      "address": "123 Main St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    },
+    {
+      "id": 2,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "agency": "XYZ Engineering",
+      "email": "jane.smith@xyzengineering.com",
+      "address": "456 Oak St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    },
+    {
+      "id": 3,
+      "firstname": "Bob",
+      "lastname": "Johnson",
+      "agency": "DEF Architecture",
+      "email": "bob.johnson@defarchitecture.com",
+      "address": "789 Elm St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    },
+    {
+      "id": 4,
+      "firstname": "Alice",
+      "lastname": "Brown",
+      "agency": "GHI Construction",
+      "email": "alice.brown@ghiconstruction.com",
+      "address": "321 Maple St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    },
+    {
+      "id": 5,
+      "firstname": "Tom",
+      "lastname": "Wilson",
+      "agency": "JKL Engineering",
+      "email": "tom.wilson@jklengineering.com",
+      "address": "654 Cedar St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    },
+    {
+      "id": 6,
+      "firstname": "Karen",
+      "lastname": "Lee",
+      "agency": "MNO Architecture",
+      "email": "karen.lee@mnoarchitecture.com",
+      "address": "987 Birch St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    },
+    {
+      "id": 7,
+      "firstname": "Mike",
+      "lastname": "Miller",
+      "agency": "PQR Construction",
+      "email": "mike.miller@pqrconstruction.com",
+      "address": "234 Pine St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    },
+    {
+      "id": 8,
+      "firstname": "Samantha",
+      "lastname": "Garcia",
+      "agency": "STU Engineering",
+      "email": "samantha.garcia@stuengineering.com",
+      "address": "567 Walnut St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    },
+    {
+      "id": 9,
+      "firstname": "David",
+      "lastname": "Allen",
+      "agency": "VWX Architecture",
+      "email": "david.allen@vwxarchitecture.com",
+      "address": "890 Spruce St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555"
+    }
+]
+  

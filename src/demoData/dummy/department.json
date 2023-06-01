@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Sales", "departmenthead": "John Doe", "status": "active" },
+  { "id": 2, "name": "Marketing", "departmenthead": "Jane Smith", "status": "active" },
+  { "id": 3, "name": "Finance", "departmenthead": "Bob Johnson", "status": "active" },
+  { "id": 4, "name": "Human Resources", "departmenthead": "Sarah Lee", "status": "active" },
+  { "id": 5, "name": "Information Technology", "departmenthead": "Mike Wang", "status": "active" },
+  { "id": 6, "name": "Research and Development", "departmenthead": "Emily Chen", "status": "active" },
+  { "id": 7, "name": "Customer Service", "departmenthead": "David Kim", "status": "active" },
+  { "id": 8, "name": "Legal", "departmenthead": "Alicia Brown", "status": "active" },
+  { "id": 9, "name": "Purchasing", "departmenthead": "Karen Davis", "status": "active" },
+  { "id": 10, "name": "Operations", "departmenthead": "Jason Lee", "status": "active" }
+]

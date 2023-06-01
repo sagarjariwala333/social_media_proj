@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "ABC Construction",
+      "email": "info@abcconstruction.com",
+      "address": "123 Main St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "XYZ Engineering",
+      "email": "info@xyzengineering.com",
+      "address": "456 Oak St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "DEF Architecture",
+      "email": "info@defarchitecture.com",
+      "address": "789 Elm St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "GHI Construction",
+      "email": "info@ghiconstruction.com",
+      "address": "321 Maple St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "JKL Engineering",
+      "email": "info@jklengineering.com",
+      "address": "654 Cedar St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "MNO Architecture",
+      "email": "info@mnoarchitecture.com",
+      "address": "987 Birch St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "PQR Construction",
+      "email": "info@pqrconstruction.com",
+      "address": "234 Pine St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "name": "STU Engineering",
+      "email": "info@stuengineering.com",
+      "address": "567 Walnut St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "name": "VWX Architecture",
+      "email": "info@vwxarchitecture.com",
+      "address": "890 Spruce St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "name": "YZA Construction",
+      "email": "info@yzaconstruction.com",
+      "address": "123 Cedar St, Anytown, USA",
+      "contactno": "+1 (555) 555-5555",
+      "status": "active"
+    }
+  ]
+  

@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Critical",
+      "description": "Urgent issue that prevents work from continuing",
+      "noofdays": 1,
+      "priority": "High",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "High",
+      "description": "Important issue that needs to be resolved as soon as possible",
+      "noofdays": 3,
+      "priority": "High",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Medium",
+      "description": "Issue that needs attention but does not affect work",
+      "noofdays": 7,
+      "priority": "Medium",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Low",
+      "description": "Minor issue that does not have a significant impact",
+      "noofdays": 14,
+      "priority": "Low",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Informational",
+      "description": "General information that does not require action",
+      "noofdays": null,
+      "priority": null,
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Emergency",
+      "description": "Immediate action required to prevent harm or danger",
+      "noofdays": 0,
+      "priority": "Urgent",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "Service Outage",
+      "description": "Service is not available",
+      "noofdays": 0,
+      "priority": "Urgent",
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "name": "Feature Request",
+      "description": "Request for new feature or enhancement",
+      "noofdays": null,
+      "priority": null,
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "name": "Bug",
+      "description": "Error or mistake in the system",
+      "noofdays": null,
+      "priority": null,
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "name": "Security",
+      "description": "Security vulnerability or breach",
+      "noofdays": 0,
+      "priority": "Urgent",
+      "status": "active"
+    }
+  ]
+  

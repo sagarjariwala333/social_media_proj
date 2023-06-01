@@ -1,0 +1,62 @@
+[
+  {
+    "member": "John",
+    "name": "Team Alpha",
+    "inviter": "Sarah",
+    "status": "active"
+  },
+  {
+    "member": "Jane",
+    "name": "Team Beta",
+    "inviter": "Michael",
+    "status": "active"
+  },
+  {
+    "member": "Mark",
+    "name": "Team Gamma",
+    "inviter": "Lily",
+    "status": "inactive"
+  },
+  {
+    "member": "Emily",
+    "name": "Team Delta",
+    "inviter": "Robert",
+    "status": "active"
+  },
+  {
+    "member": "David",
+    "name": "Team Epsilon",
+    "inviter": "Sophia",
+    "status": "active"
+  },
+  {
+    "member": "Sarah",
+    "name": "Team Zeta",
+    "inviter": "John",
+    "status": "inactive"
+  },
+  {
+    "member": "Michael",
+    "name": "Team Eta",
+    "inviter": "Jane",
+    "status": "active"
+  },
+  {
+    "member": "Lily",
+    "name": "Team Theta",
+    "inviter": "Mark",
+    "status": "active"
+  },
+  {
+    "member": "Robert",
+    "name": "Team Iota",
+    "inviter": "Emily",
+    "status": "inactive"
+  },
+  {
+    "member": "Sophia",
+    "name": "Team Kappa",
+    "inviter": "David",
+    "status": "active"
+  }
+]
